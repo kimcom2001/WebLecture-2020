@@ -3,40 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
-    <style>
-        #box { 
-            border-width: 1px;
-            border-style: dotted;
-        }
-        body.main {
-            background: aliceblue;
-        }
-        a {
-            text-decoration: none;
-            
-        }
-        a:visited { color: blue;}
-        p {
-            font-family: "휴먼편지체",Serif;
-            font-size: 1em;
-            text-indent: 1em;
-        }
-        h2 {
-            color: blue;
-            text-shadow: 5px 5px 15px blue;
-        }
-        h1 {
-            color: brown;
-            text-align: center;
-        }
-        footer.main {
-            background-color: orange;
-            border-radius: 5px;
-        }
-    </style>
+    <title>HTML</title>
+        <link type="text/css" rel="stylesheet" href="4.css">
 </head>
-<body class="main">
+<body>
     <header>
         <h1>스마트폰</h1>
             <p>스마트폰은 컴퓨터를 결합한 무선 휴대전화기이다.
@@ -47,7 +17,7 @@
     <hr style="height: 1px">
     <nav>
         <h2>목차</h2>
-        <ul id="box">
+        <ul>
             <li><a href="#역사">역사</a></li>
             <li><a href="#안드로이드">안드로이드폰</a></li>
             <li><a href="#아이폰">아이폰</a></li>
@@ -88,9 +58,8 @@
                 </tbody>
             </table>
         </aside>
-    <footer class="main">
-        <p>설문조사</p>
-        <p><b><i>Copyright 2017 by Kitae</i></b></p>
+    <footer>
+        <h4>Copyright 2017 by Kitae</h4>
         <audio src="EmbraceableYou.mp3" hidden="true" controls autoplay loop>브라우저가 audio 태그를 지원하지 않습니다.</audio>
     </footer>
 </body>

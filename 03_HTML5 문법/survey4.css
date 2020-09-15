@@ -1,0 +1,32 @@
+#box { 
+    background-color: palevioletred;
+}
+body.main {
+    background: aliceblue;
+}
+p {
+    font-family: "휴먼 편지체",Serif;
+    font-size: 1em;
+    text-indent: 1em;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+footer.main {
+    background-color: orange;
+    border-radius: 5px;
+}
+span  {
+    color: darkblue;
+    font-family: sans-serif;
+}
+label {
+    font-family: "휴먼 편지체",Serif;
+}
+@font-face {
+    font-family: "휴먼 편지체";
+    src: url(HMFMPYUN.TTF); format("truetype");
+    font-style:normal;
+    font-weight: normal;
+}
