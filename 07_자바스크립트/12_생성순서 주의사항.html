@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 페이지 생성순서 주의사항</title>
+    <script>
+        // h1 태그의 배경 색상을 red로 변경.
+        document.querySelector('h1').style.backgroundColor = 'red';
+
+        // h2 태그의 글자 색상을 blue로 변경.
+        document.querySelector('h2').style.color = 'blue';
+    </script>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <!-- head쪽에서 먼저 <script>가 적용되었기 때문에 오류가 난다. -->
+    <h2>Process - 2</h2>
+</body>
+</html>
